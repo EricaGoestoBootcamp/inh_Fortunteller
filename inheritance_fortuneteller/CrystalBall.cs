@@ -32,7 +32,7 @@ namespace inheritance_fortuneteller
             Phrases.Add(" will be important to you in a future endeavor.");
         }
 
-        //let's create an overloaded method now
+        //let's create an overloaded method now - not currently used
         protected void CreatePhrases(string phrase)
         {
             Phrases.Add(phrase);

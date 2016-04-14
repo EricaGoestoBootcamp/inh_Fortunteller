@@ -35,6 +35,7 @@ namespace inheritance_fortuneteller
             Console.WriteLine("The {0} has pulled back the curtain of fate.", this.Name);
             Console.WriteLine(this.Result);
         }
+        //overloaded show constructor
         public virtual void Show(string treasure)
         {
             Console.WriteLine("The {0} has pulled back the curtain of fate.", this.Name);

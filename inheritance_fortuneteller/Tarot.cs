@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace inheritance_fortuneteller
 {
-    //call tarot if customer phrase (build in main? contains letter d
+    //NOT CURRENTLY IMPLEMENTED 
     class Tarot : Magic
     {
         //random
@@ -35,6 +35,7 @@ namespace inheritance_fortuneteller
             Phrases.Add("*Shuffle* *Flip* *Flip*... ");
         }
 
+        //shortened number of cards 
         protected void CardPicker()
         {
             Cards.Add("The Fool");
